@@ -9,7 +9,7 @@ const musicData = {
             img: "img/boywithuke.jpg",
             songs: [
                 { id: 1, title: "Ghost", duration: "4:11" },
-                { id: 2, title: "Can You Feel it", duration: "3:21" },
+                { id: 2, title: "Can You Feel It", duration: "3:21" },
                 { id: 3, title: "Pitfall", duration: "3:06" },
                 { id: 4, title: "Backseat", duration: "2:40" },
                 { id: 5, title: "Burn", duration: "2:53" },
@@ -37,7 +37,12 @@ const musicData = {
                 { id: 19, title: "When I Grow Up", duration: "4:00" },
                 { id: 20, title: "MOTTO", duration: "3:53" },
                 { id: 21, title: "HOPE", duration: "5:03" },
-                { id: 22, title: "Therapy Session", duration: "3:55" }
+                { id: 22, title: "PANDEMONIUM", duration: "3:17" },
+                { id: 23, title: "CLOUDS", duration: "4:13" },
+                { id: 24, title: "LOST", duration: "4:03" },
+                { id: 25, title: "TRUST", duration: "4:24" },
+                { id: 26, title: "THAT'S A JOKE", duration: "3:49" }
+                
             ]
         },
         {
