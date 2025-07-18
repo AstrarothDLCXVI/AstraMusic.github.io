@@ -120,9 +120,11 @@ body {
     display: flex;
     align-items: center;
     padding: 15px;
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    background: #353232;
 }
 
 .song-item:hover {
@@ -190,13 +192,11 @@ body {
 .mini-cover {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #7814ff 0%, #ff1493 100%);
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 28px;
-    box-shadow: 0 4px 20px rgba(120, 20, 255, 0.3);
     animation: pulse 3s ease-in-out infinite;
 }
 
@@ -278,13 +278,53 @@ body {
 }
 /* Responsive */
 @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .albums-section, .songs-section {
+        padding: 10px 0;
+    }
+
+    .albums-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+    }
+
     .player-container {
         flex-direction: column;
+        align-items: center;
         gap: 15px;
     }
 
     .now-playing {
         width: 100%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-cover {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .song-info {
+        text-align: center;
     }
 
     .player-controls {
@@ -292,7 +332,17 @@ body {
         justify-content: center;
     }
 
+    .progress-container {
+        width: 100%;
+    }
+
     .progress-bar {
         width: 100%;
     }
+
+    .control-btn {
+        font-size: 24px;
+    }
 }
+
+/* Dark mode adjustments */
