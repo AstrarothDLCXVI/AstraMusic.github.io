@@ -167,7 +167,7 @@ function playSong(index) {
     
     // Simular carga de archivo de audio
     // En una aplicación real, aquí cargarías el archivo de audio real
-    audioPlayer.src = `/music/${song.title.replace(/\s+/g, "_")}.mp3`;
+    audioPlayer.src = `music/${song.title.replace(/\s+/g, "_")}.mp3`;
  // Simulación
     
     // Para esta demo, simularemos la duración
