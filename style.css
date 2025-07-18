@@ -161,6 +161,33 @@ body {
     opacity: 0.7;
 }
 
+#paginationControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#paginationControls button {
+    background: linear-gradient(135deg, #7814ff 0%, #ff1493 100%);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+#paginationControls button.active {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+
 /* Reproductor */
 .player {
     position: fixed;
