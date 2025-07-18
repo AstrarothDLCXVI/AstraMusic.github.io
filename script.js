@@ -41,7 +41,11 @@ const musicData = {
                 { id: 23, title: "CLOUDS", duration: "4:13" },
                 { id: 24, title: "LOST", duration: "4:03" },
                 { id: 25, title: "TRUST", duration: "4:24" },
-                { id: 26, title: "THAT'S A JOKE", duration: "3:49" }
+                { id: 26, title: "THAT'S A JOKE", duration: "3:49" },
+                { id: 27, title: "LAYERS", duration: "3:15" },
+                { id: 28, title: "WHY", duration: "3:11" },
+                { id: 28, title: "Outcast", duration: "5:22" },
+                { id: 28, title: "Real", duration: "4:40" }
                 
             ]
         },
@@ -50,6 +54,15 @@ const musicData = {
             title: "Cristian Gates Music",
             artist: "Cristian Gates",
             img: "img/cristianGates.jpg",
+            songs: [
+                
+            ]
+        },
+        {
+            id: 4,
+            title: "Bohnes Music",
+            artist: "Bohnes",
+            img: "img/bohne.jpg",
             songs: [
                 
             ]
