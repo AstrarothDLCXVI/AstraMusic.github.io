@@ -44,29 +44,37 @@ const musicData = {
                 { id: 26, title: "THAT'S A JOKE", duration: "3:49" },
                 { id: 27, title: "LAYERS", duration: "3:15" },
                 { id: 28, title: "WHY", duration: "3:11" },
-                { id: 28, title: "Outcast", duration: "5:22" },
-                { id: 28, title: "Real", duration: "4:40" }
+                { id: 29, title: "Outcast", duration: "5:22" },
+                { id: 30, title: "Real", duration: "4:40" }
                 
             ]
         },
         {
             id: 3,
+            title: "Bohnes Music",
+            artist: "Bohnes",
+            img: "img/bohne.jpg",
+            songs: [
+                { id: 31, title: "HOLY SMOKES", duration: "3:18" },
+                { id: 32, title: "Take it Out on Me", duration: "4:44" },
+                { id: 33, title: "Raging On A Sunday", duration: "3:28" },
+                { id: 34, title: "Vicious", duration: "3:27" },
+                { id: 35, title: "12 Rounds", duration: "3:45" },
+                { id: 36, title: "Zombie Love", duration: "3:44" },
+
+
+            ]
+        },
+        {
+            id: 4,
             title: "Cristian Gates Music",
             artist: "Cristian Gates",
             img: "img/cristianGates.jpg",
             songs: [
                 
             ]
-        },
-        {
-            id: 4,
-            title: "Bohnes Music",
-            artist: "Bohnes",
-            img: "img/bohne.jpg",
-            songs: [
-                
-            ]
         }
+        
     ]
 };
 
