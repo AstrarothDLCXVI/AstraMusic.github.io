@@ -9,7 +9,7 @@ const musicData = {
             img: "img/boywithuke.jpg",
             songs: [
                 { id: 1, title: "Ghost", duration: "4:11" },
-                { id: 2, title: "Can You Feel it", duration: "2:48" },
+                { id: 2, title: "Can You Feel it", duration: "3:21" },
                 { id: 3, title: "Pitfall", duration: "3:06" },
                 { id: 4, title: "Backseat", duration: "2:40" },
                 { id: 5, title: "Burn", duration: "2:53" },
