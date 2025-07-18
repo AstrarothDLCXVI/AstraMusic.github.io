@@ -82,7 +82,7 @@ body {
 .album-cover {
     width: 100%;
     aspect-ratio: 1;
-    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(45deg, #000000 0%, #000000 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -305,7 +305,7 @@ body {
     .player-container {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
     }
 
     .now-playing {
