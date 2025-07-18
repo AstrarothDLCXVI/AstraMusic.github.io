@@ -56,12 +56,15 @@ const musicData = {
             img: "img/bohne.jpg",
             songs: [
                 { id: 31, title: "HOLY SMOKES", duration: "3:18" },
-                { id: 32, title: "Take it Out on Me", duration: "4:44" },
+                { id: 32, title: "Take it Out on Me", duration: "3:36" },
                 { id: 33, title: "Raging On A Sunday", duration: "3:28" },
                 { id: 34, title: "Vicious", duration: "3:27" },
                 { id: 35, title: "12 Rounds", duration: "3:45" },
                 { id: 36, title: "Zombie Love", duration: "3:44" },
-
+                { id: 37, title: "Psycho", duration: "2:27" },
+                { id: 38, title: "Detonate", duration: "3:08" },
+                { id: 39, title: "Moshpit", duration: "3:24" },
+                { id: 40, title: "Slither", duration: "2:48" }
 
             ]
         },
@@ -71,7 +74,11 @@ const musicData = {
             artist: "Cristian Gates",
             img: "img/cristianGates.jpg",
             songs: [
-                
+                { id: 41, title: "GIRLS", duration: "1:48" },
+                { id: 42, title: "LIAR LIAR", duration: "1:50" },
+                { id: 43, title: "FREAK", duration: "1:58" },
+                { id: 44, title: "BABYDOLL", duration: "1:45" },
+                { id: 45, title: "FOOD_POISONING", duration: "1:56" }
             ]
         }
         
@@ -104,9 +111,9 @@ function init() {
 }
 
 // Renderizar álbumes
-function renderAlbums() {
+function renderAlbums(albums = musicData.albums) {
     const albumsGrid = document.getElementById('albumsGrid');
-    albumsGrid.innerHTML = musicData.albums.map(album => `
+    albumsGrid.innerHTML = albums.map(album => `
         <div class="album-card" onclick="filterByAlbum(${album.id})">
             <img class="album-cover" src="${album.img}" alt="${album.artist}">
             <div class="album-info">
@@ -116,6 +123,7 @@ function renderAlbums() {
         </div>
     `).join('');
 }
+
 
 // Renderizar canciones
 function renderSongs(songs) {
@@ -147,12 +155,35 @@ function setupEventListeners() {
     // Búsqueda
     document.getElementById('searchInput').addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase();
-        const filtered = allSongs.filter(song => 
+
+        if (!query) {
+            // Si la búsqueda está vacía, mostrar todo
+            renderAlbums();
+            currentPage = 1;
+            renderSongs(allSongs);
+            renderPagination(allSongs);
+            return;
+        }
+
+        const filteredSongs = allSongs.filter(song =>
             song.title.toLowerCase().includes(query) ||
             song.artist.toLowerCase().includes(query) ||
             song.albumTitle.toLowerCase().includes(query)
         );
-        renderSongs(filtered);
+
+        // Filtrar álbumes únicos que tienen alguna de esas canciones
+        const filteredAlbumIds = new Set(filteredSongs.map(song => song.albumTitle));
+        const filteredAlbums = musicData.albums.filter(album =>
+            filteredAlbumIds.has(album.title)
+        );
+
+        // Renderizar álbumes filtrados
+        renderAlbums(filteredAlbums);
+
+        // Reiniciar a página 1 y renderizar canciones
+        currentPage = 1;
+        renderSongs(filteredSongs);
+        renderPagination(filteredSongs);
     });
 
     // Controles del reproductor
