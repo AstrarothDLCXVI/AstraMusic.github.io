@@ -12,6 +12,68 @@ body {
     padding: 20px;
 }
 
+.title-wave {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    background: linear-gradient(
+        90deg,
+        #667eea,
+        #764ba2,
+        #f093fb,
+        #4facfe,
+        #00f2fe,
+        #667eea
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-wave 3s linear infinite;
+    position: relative;
+    display: inline block;
+    text-align: center;
+    margin: 10px 10px;
+    letter-spacing: 2px;
+}
+
+@keyframes gradient-wave {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+.title-wave::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(102, 126, 234, 0.3) 0%,
+        transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+    filter: blur(40px);
+}
+
+.title-wave:hover::before {
+    opacity: 1;
+}
+
+.title-wave:hover {
+    animation-duration: 1s;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -307,6 +369,11 @@ body {
     body {
         font-size: 14px;
         padding: 10px;
+    }
+
+    .title-wave {
+        font-size: 2.5rem;
+        margin: 5px 5px;
     }
 
     .container {
