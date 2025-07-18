@@ -184,7 +184,7 @@ function playSong(index) {
     // Actualizar UI
     document.getElementById('currentTitle').textContent = song.title;
     document.getElementById('currentArtist').textContent = song.artist;
-    document.getElementById('miniCover').src = song.img || 'img/default.jpg';
+    document.getElementById('miniCover').src = song.img;
     
     // Actualizar canción activa
     document.querySelectorAll('.song-item').forEach((item, i) => {
