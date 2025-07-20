@@ -78,7 +78,37 @@ const musicData = {
                 { id: 42, title: "LIAR LIAR", duration: "1:50" },
                 { id: 43, title: "FREAK", duration: "1:58" },
                 { id: 44, title: "BABYDOLL", duration: "1:45" },
-                { id: 45, title: "FOOD_POISONING", duration: "1:56" }
+                { id: 45, title: "FOOD POISONING", duration: "1:56" },
+                { id: 46, title: "SECRETS", duration: "2:41" },
+                { id: 47, title: "Arson", duration: "2:16" },
+                { id: 48, title: "Dangerous State of Mind", duration: "2:07" },
+                { id: 49, title: "Traumatized", duration: "2:35" },
+                { id: 50, title: "SAYING GOODBYE", duration: "2:12" },
+                { id: 51, title: "NUMB", duration: "2:08" },
+                { id: 52, title: "Stayin' Up", duration: "3:01" },
+                { id: 53, title: "FVCK NIGHT", duration: "3:15" },
+                { id: 54, title: "SHREDS", duration: "2:48" },
+                { id: 55, title: "Breakup Sex", duration: "2:04" },
+                { id: 56, title: "Star", duration: "2:42" },
+                { id: 57, title: "After Hours", duration: "2:49" }
+            ]
+        },
+        {
+            id: 5,
+            title: "Proximamente",
+            artist: "Proximamente",
+            img: "img/logo.jpg",
+            songs: [
+                
+            ]
+        },
+        {
+            id: 6,
+            title: "Proximamente",
+            artist: "Proximamente",
+            img: "img/logo.jpg",
+            songs: [
+                
             ]
         }
         
