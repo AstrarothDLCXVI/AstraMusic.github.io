@@ -56,7 +56,7 @@ const musicData = {
             img: "img/bohne.jpg",
             songs: [
                 { id: 31, title: "HOLY SMOKES", duration: "3:18" },
-                { id: 32, title: "Take it Out on Me", duration: "3:36" },
+                { id: 32, title: "Take it Out on Me", duration: "3:39" },
                 { id: 33, title: "Raging On A Sunday", duration: "3:28" },
                 { id: 34, title: "Vicious", duration: "3:27" },
                 { id: 35, title: "12 Rounds", duration: "3:45" },
