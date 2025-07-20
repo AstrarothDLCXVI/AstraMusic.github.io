@@ -90,7 +90,12 @@ const musicData = {
                 { id: 54, title: "SHREDS", duration: "2:48" },
                 { id: 55, title: "Breakup Sex", duration: "2:04" },
                 { id: 56, title: "Star", duration: "2:42" },
-                { id: 57, title: "After Hours", duration: "2:49" }
+                { id: 57, title: "After Hours", duration: "2:49" },
+                { id: 58, title: "Skitzo", duration: "1:05" },
+                { id: 59, title: "Lost_CG", duration: "2:59" },
+                { id: 60, title: "KILL_MY_X", duration: "2:31" },
+                { id: 61, title: "999", duration: "3:31" },
+                { id: 62, title: "ALL_IN", duration: "2:11" }
             ]
         },
         {
