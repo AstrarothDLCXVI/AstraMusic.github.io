@@ -56,7 +56,7 @@ const musicData = {
             img: "img/bohne.jpg",
             songs: [
                 { id: 31, title: "HOLY SMOKES", duration: "3:18" },
-                { id: 32, title: "Take it Out on Me", duration: "3:36" },
+                { id: 32, title: "Take it Out on Me", duration: "3:39" },
                 { id: 33, title: "Raging On A Sunday", duration: "3:28" },
                 { id: 34, title: "Vicious", duration: "3:27" },
                 { id: 35, title: "12 Rounds", duration: "3:45" },
@@ -90,7 +90,14 @@ const musicData = {
                 { id: 54, title: "SHREDS", duration: "2:48" },
                 { id: 55, title: "Breakup Sex", duration: "2:04" },
                 { id: 56, title: "Star", duration: "2:42" },
-                { id: 57, title: "After Hours", duration: "2:49" }
+                { id: 57, title: "After Hours", duration: "2:49" },
+                { id: 57, title: "After Hours", duration: "2:49" },
+                { id: 58, title: "Skitzo", duration: "1:05" },
+                { id: 59, title: "Lost_CG", duration: "2:59" },
+                { id: 60, title: "KILL_MY_X", duration: "2:31" },
+                { id: 61, title: "999", duration: "3:31" },
+                { id: 62, title: "ALL_IN", duration: "2:11" }
+                
             ]
         },
         {
