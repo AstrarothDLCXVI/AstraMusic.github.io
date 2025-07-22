@@ -1,0 +1,17 @@
+{
+  "id": 3,
+  "albumTitle": "Bohnes Music",
+  "artist": "Bohnes",
+  "songs": [
+    { "id": 31, "title": "HOLY SMOKES", "duration": "3:18", "file": "HOLY_SMOKES.mp3" },
+    { "id": 32, "title": "Take it Out on Me", "duration": "3:39", "file": "Take_it_Out_on_Me.mp3" },
+    { "id": 33, "title": "Raging On A Sunday", "duration": "3:28", "file": "Raging_On_A_Sunday.mp3" },
+    { "id": 34, "title": "Vicious", "duration": "3:27", "file": "Vicious.mp3" },
+    { "id": 35, "title": "12 Rounds", "duration": "3:45", "file": "12_Rounds.mp3" },
+    { "id": 36, "title": "Zombie Love", "duration": "3:44", "file": "Zombie_Love.mp3" },
+    { "id": 37, "title": "Psycho", "duration": "2:27", "file": "Psycho.mp3" },
+    { "id": 38, "title": "Detonate", "duration": "3:08", "file": "Detonate.mp3" },
+    { "id": 39, "title": "Moshpit", "duration": "3:24", "file": "Moshpit.mp3" },
+    { "id": 40, "title": "Slither", "duration": "2:48", "file": "Slither.mp3" }
+  ]
+}

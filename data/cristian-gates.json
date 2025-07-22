@@ -1,0 +1,29 @@
+{
+  "id": 4,
+  "albumTitle": "Cristian Gates Music",
+  "artist": "Cristian Gates",
+  "songs": [
+    { "id": 41, "title": "GIRLS", "duration": "1:48", "file": "GIRLS.mp3" },
+    { "id": 42, "title": "LIAR LIAR", "duration": "1:50", "file": "LIAR_LIAR.mp3" },
+    { "id": 43, "title": "FREAK", "duration": "1:58", "file": "FREAK.mp3" },
+    { "id": 44, "title": "BABYDOLL", "duration": "1:45", "file": "BABYDOLL.mp3" },
+    { "id": 45, "title": "FOOD POISONING", "duration": "1:56", "file": "FOOD_POISONING.mp3" },
+    { "id": 46, "title": "SECRETS", "duration": "2:41", "file": "SECRETS.mp3" },
+    { "id": 47, "title": "Arson", "duration": "2:16", "file": "Arson.mp3" },
+    { "id": 48, "title": "Dangerous State of Mind", "duration": "2:07", "file": "Dangerous_State_of_Mind.mp3" },
+    { "id": 49, "title": "Traumatized", "duration": "2:35", "file": "Traumatized.mp3" },
+    { "id": 50, "title": "SAYING GOODBYE", "duration": "2:12", "file": "SAYING_GOODBYE.mp3" },
+    { "id": 51, "title": "NUMB", "duration": "2:08", "file": "NUMB.mp3" },
+    { "id": 52, "title": "Stayin' Up", "duration": "3:01", "file": "Stayin_Up.mp3" },
+    { "id": 53, "title": "FVCK NIGHT", "duration": "3:15", "file": "FVCK_NIGHT.mp3" },
+    { "id": 54, "title": "SHREDS", "duration": "2:48", "file": "SHREDS.mp3" },
+    { "id": 55, "title": "Breakup Sex", "duration": "2:04", "file": "Breakup_Sex.mp3" },
+    { "id": 56, "title": "Star", "duration": "2:42", "file": "Star.mp3" },
+    { "id": 57, "title": "After Hours", "duration": "2:49", "file": "After_Hours.mp3" },
+    { "id": 58, "title": "Skitzo", "duration": "1:05", "file": "Skitzo.mp3" },
+    { "id": 59, "title": "Lost_CG", "duration": "2:59", "file": "Lost_CG.mp3" },
+    { "id": 60, "title": "KILL_MY_X", "duration": "2:31", "file": "KILL_MY_X.mp3" },
+    { "id": 61, "title": "999", "duration": "3:31", "file": "999.mp3" },
+    { "id": 62, "title": "ALL_IN", "duration": "2:11", "file": "ALL_IN.mp3" }
+  ]
+}
