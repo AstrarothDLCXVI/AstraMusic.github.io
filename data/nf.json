@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "albumTitle": "NF Music",
+  "artist": "NF",
+  "songs": [
+    { "id": 15, "title": "Intro", "duration": "2:57", "file": "Intro.mp3" },
+    { "id": 16, "title": "Intro 2", "duration": "3:16", "file": "Intro_2.mp3" },
+    { "id": 17, "title": "The Search", "duration": "4:51", "file": "The_Search.mp3" },
+    { "id": 18, "title": "Leave Me Alone", "duration": "5:12", "file": "Leave_Me_Alone.mp3" },
+    { "id": 19, "title": "When I Grow Up", "duration": "4:00", "file": "When_I_Grow_Up.mp3" },
+    { "id": 20, "title": "MOTTO", "duration": "3:53", "file": "MOTTO.mp3" },
+    { "id": 21, "title": "HOPE", "duration": "5:03", "file": "HOPE.mp3" },
+    { "id": 22, "title": "PANDEMONIUM", "duration": "3:17", "file": "PANDEMONIUM.mp3" },
+    { "id": 23, "title": "CLOUDS", "duration": "4:13", "file": "CLOUDS.mp3" },
+    { "id": 24, "title": "LOST", "duration": "4:03", "file": "LOST.mp3" },
+    { "id": 25, "title": "TRUST", "duration": "4:24", "file": "TRUST.mp3" },
+    { "id": 26, "title": "THAT'S A JOKE", "duration": "3:49", "file": "THATS_A_JOKE.mp3" },
+    { "id": 27, "title": "LAYERS", "duration": "3:15", "file": "LAYERS.mp3" },
+    { "id": 28, "title": "WHY", "duration": "3:11", "file": "WHY.mp3" },
+    { "id": 29, "title": "Outcast", "duration": "5:22", "file": "Outcast.mp3" },
+    { "id": 30, "title": "Real", "duration": "4:40", "file": "Real.mp3" }
+  ]
+}

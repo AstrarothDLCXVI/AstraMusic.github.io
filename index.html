@@ -6,15 +6,10 @@
     <title>AstraMusic</title>
     <link rel="icon" type="img/jpg" href="img/logo.jpg">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-
     <h1 class="title-wave">ASTRA-MUSIC</h1>
     
-
-    
-
     <div class="container">
         <!-- Barra de búsqueda -->
         <div class="search-section">
@@ -29,12 +24,25 @@
             </div>
         </div>
 
+        <!-- Sección de canciones favoritas -->
+        <div class="favorites-section" id="favoritesSection" style="display: none;">
+            <h2 class="section-title">
+                <span>❤️ Canciones que me gustan</span>
+                <button class="show-all-btn" onclick="showAllSongs()">Ver todas las canciones</button>
+            </h2>
+            <div class="song-list" id="favoritesList">
+                <!-- Las canciones favoritas se cargarán aquí -->
+            </div>
+        </div>
+
         <!-- Lista de canciones -->
-        <div class="songs-section">
-            <h2 class="section-title">Todas las Canciones</h2>
+        <div class="songs-section" id="allSongsSection">
+            <h2 class="section-title">
+                <span>Todas las Canciones</span>
+                <button class="show-favorites-btn" onclick="showFavorites()">❤️ Ver favoritas</button>
+            </h2>
             <div class="song-list" id="songList">
                 <!-- Las canciones se cargarán aquí -->
-            
             </div>
         </div>
     </div>
@@ -69,7 +77,6 @@
     </div>
 
     <audio id="audioPlayer"></audio>
-
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "albumTitle": "BoyWithUke Music",
+  "artist": "BoyWithUke",
+  "songs": [
+    { "id": 1, "title": "Ghost", "duration": "4:11", "file": "Ghost.mp3" },
+    { "id": 2, "title": "Can You Feel It", "duration": "3:21", "file": "Can_You_Feel_It.mp3" },
+    { "id": 3, "title": "Pitfall", "duration": "3:06", "file": "Pitfall.mp3" },
+    { "id": 4, "title": "Backseat", "duration": "2:40", "file": "Backseat.mp3" },
+    { "id": 5, "title": "Burn", "duration": "2:53", "file": "Burn.mp3" },
+    { "id": 6, "title": "Paper Planes", "duration": "3:10", "file": "Paper_Planes.mp3" },
+    { "id": 7, "title": "Gaslight", "duration": "3:18", "file": "Gaslight.mp3" },
+    { "id": 8, "title": "Love Lost", "duration": "3:36", "file": "Love_Lost.mp3" },
+    { "id": 9, "title": "Easier", "duration": "5:46", "file": "Easier.mp3" },
+    { "id": 10, "title": "Stranger", "duration": "3:39", "file": "Stranger.mp3" },
+    { "id": 11, "title": "Change", "duration": "3:19", "file": "Change.mp3" },
+    { "id": 12, "title": "Petrichor", "duration": "2:41", "file": "Petrichor.mp3" },
+    { "id": 13, "title": "Coffee", "duration": "3:41", "file": "Coffee.mp3" },
+    { "id": 14, "title": "Corduroy", "duration": "3:35", "file": "Corduroy.mp3" }
+  ]
+}
