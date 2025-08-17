@@ -96,17 +96,42 @@ const artistsData = [
     },
     {
         id: 5,
-        albumTitle: "Próximamente",
-        artist: "Próximamente",
-        img: "img/logo.jpg",
-        songs: []
+        albumTitle: "Citizen Soldier Music",
+        artist: "Citizen Soldier",
+        img: "img/CitizenSoldier.jpg",
+        songs: [
+            { id: 63, title: "Hallelujah I'm Not Dead", duration: "3:30", file: "Hallelujah_I'_m_Not_Dead.wav" }
+        ]
     },
     {
         id: 6,
-        albumTitle: "Próximamente",
-        artist: "Próximamente",
-        img: "img/logo.jpg",
-        songs: []
+        albumTitle: "League Of Leguends Music",
+        artist: "League Of Leguends",
+        img: "img/LeagueOfLeguends.jpg",
+        songs: [
+            { id: 64, title: "GODS", duration: "3:37", file: "GODS.wav" },
+            { id: 65, title: "Still Here", duration: "4:12", file: "Still_Here.wav" },
+            { id: 66, title: "Enemy", duration: "2:53", file: "Enemy.wav" },
+            { id: 67, title: "Legends Never Die", duration: "3:55", file: "Legends_Never_Die.wav" },
+            { id: 68, title: "Phoenix", duration: "3:17", file: "Phoenix.wav" },
+            { id: 69, title: "Warriors(2WEI)", duration: "3:24", file: "Warriors(2WEI).wav" },
+            { id: 70, title: "Warriors(Imagine Dragons)", duration: "2:50", file: "Warriors(Imagine_Dragons).wav" },
+            { id: 71, title: "Burn It All Down", duration: "3:32", file: "Burn_It_All_Down.wav" },
+            { id: 72, title: "Take Over", duration: "3:45", file: "Take_Over.wav" },
+            { id: 73, title: "RISE", duration: "3:30", file: "RISE.wav" },
+
+
+        ]
+    },
+    {
+        id: 7,
+        albumTitle: "Black Clover Opening Music",
+        artist: "Black Clover",
+        img: "img/BlackClover.jpg",
+        songs: [
+            { id: 80, title: "Black Rover", duration: "3:29", file: "Black_Rover.wav" },
+            { id: 81, title: "Black Catcher", duration: "3:18", file: "Black_Catcher.wav" }
+        ]
     }
 ];
 
