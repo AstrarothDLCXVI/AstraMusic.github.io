@@ -118,7 +118,7 @@ const artistsData = [
             { id: 70, title: "Warriors(Imagine Dragons)", duration: "2:50", file: "Warriors(Imagine_Dragons).wav" },
             { id: 71, title: "Burn It All Down", duration: "3:32", file: "Burn_It_All_Down.wav" },
             { id: 72, title: "Take Over", duration: "3:45", file: "Take_Over.wav" },
-            { id: 73, title: "RISE", duration: "3:30", file: "RISE.wav" },
+            { id: 73, title: "RISE", duration: "3:30", file: "RISE.wav" }
 
 
         ]
