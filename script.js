@@ -105,9 +105,9 @@ const artistsData = [
     },
     {
         id: 6,
-        albumTitle: "League Of Leguends Music",
-        artist: "League Of Leguends",
-        img: "img/LeagueOfLeguends.jpg",
+        albumTitle: "League Of Legends Music",
+        artist: "League of Legends",
+        img: "img/LeagueOfLegends.jpg",
         songs: [
             { id: 64, title: "GODS", duration: "3:37", file: "GODS.wav" },
             { id: 65, title: "Still Here", duration: "4:12", file: "Still_Here.wav" },
