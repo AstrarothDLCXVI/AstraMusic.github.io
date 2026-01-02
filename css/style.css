@@ -489,7 +489,7 @@ body {
     background: rgba(74, 0, 128, 0.3);
     border-radius: 3px;
     outline: none;
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
 }
 
 .volume-slider::-webkit-slider-thumb {
