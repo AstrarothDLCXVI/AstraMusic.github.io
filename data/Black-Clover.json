@@ -1,9 +1,0 @@
-{
-    "id": 7,
-    "albumTitle": "Black Clover Opening Music",
-    "artist": "Black Clover Opening",
-    "img": "img/BlackClover.jpg",
-    "songs": [
-        { "id": 65, "title": "Black Rover", "duration": "3:29", "file": "Black_Rover.wav" }
-    ]
-}
